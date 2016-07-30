@@ -36,7 +36,7 @@
     <%= f.password_field :password_confirmation %>
   </div> -->
 
-  <%= f.collection_check_boxes :equipment_ids, Equipment.all, :id, :name %>
+  <%= f.collection_check_boxes :equipment_ids, Equipment.all, :id, :name %> 
 
   <div class="actions">
     <%= f.submit 'Register' %>
