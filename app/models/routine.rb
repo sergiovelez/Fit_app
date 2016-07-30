@@ -1,3 +1,3 @@
 class Routine < ApplicationRecord
-  has_many_and_belongs_to :exercises
+  has_and_belongs_to_many :exercises
 end
