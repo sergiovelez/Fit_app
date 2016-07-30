@@ -1,5 +1,5 @@
 class Exercise < ApplicationRecord
-  has_many_and_belongs_to :equipment
-  has_many_and_belongs_to :routines
-  has_many_and_belongs_to :muscle_groups
+  has_and_belongs_to_many :equipment
+  has_and_belongs_to_many :routines
+  has_and_belongs_to_many :muscle_groups
 end
