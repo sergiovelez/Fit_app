@@ -3,5 +3,14 @@
 #
 # Examples:
 #
-#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
-#   Character.create(name: 'Luke', movie: movies.first)
+  # movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
+  # Character.create(name: 'Luke', movie: movies.first)
+
+Equipment.create([{ name: 'Dumbells' }, { name: 'Kettlebells' }, { name: 'Medicine Ball' }])
+
+
+
+
+# Equipment.create(name: "Name")
+# Equipment.create(name: "Nam2")
+# Equipment.create(name: "Nam4")
