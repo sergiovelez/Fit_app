@@ -6,7 +6,9 @@ class UsersController < ApplicationController
     def index
       @users = User.all
     end
-
+    def show_routine
+      @routines = build_routine
+    end
     # GET /users/1
     # GET /users/1.json
     def show
